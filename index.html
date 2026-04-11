@@ -50,35 +50,51 @@
 								<h2>Personal Projects</h2>
 								<div class="row">
 								
-								    <article class="col-6 col-12-xsmall work-item">
-								        <span class="image fit">
-								            <img src="images/Heatmap_top30.png" alt="" />
-								        </span>
-								        <h3>
-								            <a href="https://github.com/vngosb/rnaseq_differential_expression_GSE183947" target="_blank">
-								                RNA-Seq Differential Expression Pipeline
-								            </a>
-								        </h3>
-								        <p>
-								            Built a reproducible RNA-seq analysis pipeline using public dataset GSE183947, covering quality control, read trimming, transcript quantification (Salmon), and differential expression analysis (DESeq2). Generated PCA, heatmap, and volcano plots to identify and visualize significant gene expression differences between tumor and normal samples. Designed as a modular, scalable workflow using Bash and R.
-								        </p>
-								    </article>
-								
-								    <article class="col-6 col-12-xsmall work-item">
-								        <span class="image fit">
-								            <img src="images/ma_plot.png" alt="" />
-								        </span>
-								        <h3>
-								            <a href="https://github.com/vngosb/rna-seq-nextflow-pipeline" target="_blank">
-								                RNA-Seq Nextflow Pipeline for NASH vs Control
-								            </a>
-								        </h3>
-								        <p>
-								            Built an end-to-end RNA-seq analysis pipeline using Nextflow to process raw sequencing data from SRA through quality control, alignment, quantification, and differential expression analysis. Applied the pipeline to identify differentially expressed exosomal miRNAs associated with NASH, with results validated through PCA and statistical modeling using DESeq2.
-								        </p>
-								    </article>
-								
-								</div>					
+								   <article class="col-12 work-item">
+    <span class="image fit">
+        <img src="images/Heatmap_top30.png" alt="" />
+    </span>
+    <h3>
+        <a href="https://github.com/vngosb/rnaseq_differential_expression_GSE183947" target="_blank">
+            RNA-Seq Differential Expression Pipeline
+        </a>
+    </h3>
+    <p><strong>Problem:</strong><br />
+        Identify gene expression differences between tumor and normal samples using RNA-seq data.
+    </p>
+    <p><strong>Tools:</strong><br />
+        R, DESeq2, Salmon, Bash, GEO (GSE183947), ggplot2
+    </p>
+    <p><strong>What I did:</strong><br />
+        Built a reproducible RNA-seq analysis pipeline using public dataset GSE183947. Performed quality control and read trimming, quantified transcripts using Salmon, and conducted differential expression analysis with DESeq2. Generated PCA, heatmap, and volcano plots for data visualization, and designed the workflow as a modular pipeline using Bash and R.
+    </p>
+    <p><strong>Result:</strong><br />
+        Identified significant gene expression differences between tumor and normal samples, with clear clustering patterns visible in PCA. Produced publication-style visualizations for biological interpretation and demonstrated the ability to build reproducible RNA-seq analysis workflows.
+    </p>
+</article>
+
+<article class="col-12 work-item">
+    <span class="image fit">
+        <img src="images/ma_plot.png" alt="" />
+    </span>
+    <h3>
+        <a href="https://github.com/vngosb/rna-seq-nextflow-pipeline" target="_blank">
+            RNA-Seq Nextflow Pipeline for NASH vs Control
+        </a>
+    </h3>
+    <p><strong>Problem:</strong><br />
+        Develop a scalable, automated pipeline to analyze RNA-seq data and identify exosomal miRNA expression changes associated with NASH.
+    </p>
+    <p><strong>Tools:</strong><br />
+        Nextflow, FastQC, Trim Galore, HISAT2, featureCounts, DESeq2, MultiQC, SRA Toolkit
+    </p>
+    <p><strong>What I did:</strong><br />
+        Built an end-to-end RNA-seq analysis pipeline using Nextflow to process raw sequencing data from SRA through quality control, alignment, quantification, and differential expression analysis. Applied the pipeline to analyze exosomal miRNA expression in NASH versus control samples, and validated results using PCA and statistical modeling with DESeq2.
+    </p>
+    <p><strong>Result:</strong><br />
+        Identified differentially expressed exosomal miRNAs associated with NASH and achieved clear sample separation in PCA. Created a reproducible and automated workflow that demonstrates practical bioinformatics pipeline development for disease-focused RNA-seq analysis.
+    </p>
+</article>	
 						
 						    <!-- School Projects -->
 						<h2>School Projects</h2>
