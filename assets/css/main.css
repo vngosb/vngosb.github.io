@@ -3220,14 +3220,17 @@ input, select, textarea {
 
 	}
 
-/* === Force uniform project image sizes === */
-.work-item .image.fit {
-    height: 220px;       /* adjust this if needed */
-    overflow: hidden;
+/* Uniform project image sizing */
+.work-item .image {
+	display: block;
+	width: 100%;
+	height: 220px !important;
+	overflow: hidden;
 }
 
-.work-item .image.fit img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;   /* keeps proportions, crops cleanly */
+.work-item .image img {
+	display: block;
+	width: 100%;
+	height: 220px !important;
+	object-fit: cover;
 }
