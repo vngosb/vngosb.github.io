@@ -3233,3 +3233,8 @@ input, select, textarea {
     max-height: 100%;
     object-fit: contain;
 }
+
+.about-text {
+    margin-bottom: 1em;
+    text-indent: 2em;
+}
